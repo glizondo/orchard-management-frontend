@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/orchard-management-frontend/static/css/main.8ca2319f.css",
+    "main.js": "/orchard-management-frontend/static/js/main.20268899.js",
+    "static/js/787.9da747eb.chunk.js": "/orchard-management-frontend/static/js/787.9da747eb.chunk.js",
+    "static/media/dashboard2.jpg": "/orchard-management-frontend/static/media/dashboard2.667aadc07ad4827612a6.jpg",
+    "static/media/dashboard1.jpg": "/orchard-management-frontend/static/media/dashboard1.2ddddc4f12f5c1bad997.jpg",
+    "static/media/dashboard3.jpg": "/orchard-management-frontend/static/media/dashboard3.2dc8184235b7ac77d716.jpg",
+    "static/media/apple.jpg": "/orchard-management-frontend/static/media/apple.ad4d469fe50c418fd191.jpg",
+    "index.html": "/orchard-management-frontend/index.html",
+    "main.8ca2319f.css.map": "/orchard-management-frontend/static/css/main.8ca2319f.css.map",
+    "main.20268899.js.map": "/orchard-management-frontend/static/js/main.20268899.js.map",
+    "787.9da747eb.chunk.js.map": "/orchard-management-frontend/static/js/787.9da747eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ca2319f.css",
+    "static/js/main.20268899.js"
+  ]
+}
