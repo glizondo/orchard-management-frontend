@@ -140,7 +140,7 @@ function TreeAddForm({ props, onAction }) {
             {isModalNoUpdatesOpen && (
                 <div className="modal-overlay">
                     <div className="modal">
-                        <h3>There are no updates to be saved</h3>
+                        <h3>Please, enter some information to create the tree</h3>
                         <button className='no-button' onClick={handleCloseModal}>Close</button>
                     </div>
                 </div>
