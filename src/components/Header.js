@@ -7,7 +7,7 @@ function Header({ onPopUpClick}) {
     return (
         <div>
             <header className="header">
-                <Link className="header-title" to="/">The Orchards' Home</Link>
+                <Link className="header-title" to="/orchard-management-frontend">The Orchards' Home</Link>
                 <span className='header-tree-count'>
                     <h3 className='header-tree-count-text'>William's Trees: 10</h3>
                 </span>

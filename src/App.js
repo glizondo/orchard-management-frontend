@@ -26,7 +26,7 @@ function App() {
         {popUpVisible && <Popup onBodyChange={handleBodyChange} />}
         <SubHeader bodyName={selectedPage} />
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/orchard-management-frontend" element={<Dashboard />} />
           <Route path="Trees" element={<TreeList />} />
           <Route path="Account" element={<Account />} />
         </Routes>
