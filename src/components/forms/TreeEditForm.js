@@ -125,7 +125,7 @@ function TreeEditForm({ props, onAction }) {
             {isModalSaveOpen && (
                 <div className="modal-overlay">
                     <div className="modal">
-                        <h3>Are you sure you want to save the updates about the tree?</h3>
+                        <h3>Are you sure you want to save the updates about the {props.type} tree?</h3>
                         <button className='no-button' onClick={handleCloseModal}>No</button>
                         <button className='yes-button' onClick={onAction}>Yes</button>
                     </div>
@@ -144,7 +144,7 @@ function TreeEditForm({ props, onAction }) {
             {isModalDeleteOpen && (
                 <div className="modal-overlay">
                     <div className="modal">
-                        <h3>Are you sure you want to delete the tree?</h3>
+                        <h3>Are you sure you want to delete the {props.type} tree?</h3>
                         <button className='no-button' onClick={handleCloseModal}>No</button>
                         <button className='yes-button' onClick={onAction}>Yes</button>
                     </div>
