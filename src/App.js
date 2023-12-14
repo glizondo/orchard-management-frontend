@@ -10,10 +10,9 @@ import './Styles.css';
 
 function App() {
   const [popUpVisible, setPopUpVisible] = useState(false);
-  const [selectedPage, setSelectedPage] = useState('');
+  const [selectedPage, setSelectedPage] = useState('Dashboard');
   const handlePopUpClick = () => setPopUpVisible(!popUpVisible);
   const handleBodyChange = (page) => {
-    console.log(page);
     setSelectedPage(page);
     setPopUpVisible(false);
   };
@@ -22,11 +21,11 @@ function App() {
 
     <Router>
       <div>
-        <Header onPopUpClick={handlePopUpClick} />
+        <Header onBodyChange={handleBodyChange} onPopUpClick={handlePopUpClick} />
         {popUpVisible && <Popup onBodyChange={handleBodyChange} />}
         <SubHeader bodyName={selectedPage} />
         <Routes>
-          <Route path="/orchard-management-frontend" element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="Trees" element={<TreeList />} />
           <Route path="Account" element={<Account />} />
         </Routes>

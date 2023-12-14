@@ -6,7 +6,7 @@ import TreesSubHeader from "./TreesSubHeader";
 function SubHeader({ bodyName }) {
     return (
         <div>
-            {bodyName === "" && <DashboardSubHeader />}
+            {bodyName === "Dashboard" && <DashboardSubHeader />}
             {bodyName === "Account" && <AccountSubHeader />}
             {bodyName === "Trees" && <TreesSubHeader />}
         </div>
