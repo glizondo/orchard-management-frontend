@@ -1,8 +1,8 @@
 {
   "name": "orchard-webapp",
   "version": "0.1.0",
-  "homepage": "https://glizondo.github.io/orchard-management-frontend",
   "private": true,
+  "homepage": "https://glizondo.github.io/orchard-management-frontend",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
